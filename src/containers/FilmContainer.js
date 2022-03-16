@@ -9,7 +9,7 @@ let filmIndex = 0;
 const FilmContainer = ({films}) => {
 
     const [film, setFilm] = useState(films[filmIndex]);
-    console.log("length:" + films.length)
+
     const handleFilmNextButtonClick = () => {
         if (filmIndex + 1 < films.length){
             filmIndex++;
