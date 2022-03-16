@@ -1,10 +1,10 @@
 import React from "react";
 
-const FilmBackButton = () => {
+const FilmBackButton = ({onClick}) => {
 
     return (
         <>
-        <button>&#8592;</button>
+        <button onClick={onClick}>&#8592;</button>
         </>
     )
 }

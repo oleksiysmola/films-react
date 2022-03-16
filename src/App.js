@@ -6,7 +6,7 @@ import {useState} from 'react';
 import FilmContainer from './containers/FilmContainer';
 
 function App() {
-  const [films, setFilms] = useState([
+  const films = [
     {
         "title": "Alien",
         "duration": 117,
@@ -65,14 +65,15 @@ function App() {
             "name": "Ridley Scott"
         }
     }
-])
+]
+
 
   return (
     <>
     <Title/>
     <Search/>
     <NavBar/>
-    <FilmContainer film={films[0]}/>
+    <FilmContainer films={films}/>
     </>
   );
 }
