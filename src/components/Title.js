@@ -4,7 +4,7 @@ const Title = () => {
 
     return (
         <>
-        <h1>Totally Objective Reviews</h1>
+        <h1>Totally Objective Film Reviews</h1>
         </>
     )
 }
